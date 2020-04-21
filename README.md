@@ -8,11 +8,11 @@
 
 - 字典转模型
   - 遍历key
-  - objc_msgSend对key发送消息
+  - `objc_msgSend`对key发送消息
 - 模型转字典
-  - class_copyPropertyList获取属性列表properties
+  - `class_copyPropertyList`获取属性列表properties
   - 遍历properties，获取属性名name
-  - objc_msgSend对name发送消息，设置value
+  - `objc_msgSend`对name发送消息，设置value
   - 存入dic并返回
  
  
