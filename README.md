@@ -1,6 +1,6 @@
 #### 一、介绍
 
-模型转字典，字典转模型，这是开发中最基本的功能。系统类中提供了一个setValuesForKeysWithDictionary方法来实现字典转模型，至于模型转字典，这个就需要使用runtime来实现了。其实字典和模型的互转可以完全使用运行时runtime来实现。典型的第三方有MJExtension和YYModel。现在我就来借助runtime的思想来进行大致的实现。
+模型转字典，字典转模型，这是开发中最基本的功能。系统类中提供了一个`setValuesForKeysWithDictionary`方法来实现字典转模型，至于模型转字典，这个就需要使用runtime来实现了。其实字典和模型的互转可以完全使用运行时runtime来实现。典型的第三方有`MJExtension`和`YYModel`。现在我就来借助runtime的思想来进行大致的实现。
 
  
 
